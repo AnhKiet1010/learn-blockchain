@@ -4,6 +4,7 @@ pragma solidity >=0.4.22 <0.9.0;
 contract Faucet {
     // Add funds, Withdraw, Address Index, getFunders
     uint256 public numOfFunder;
+    uint public so_nguyen_duong = 1e60;
     mapping(address => bool) public funders;
     mapping(uint256 => address) public loopFunders;
 
